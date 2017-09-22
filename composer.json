@@ -1,0 +1,16 @@
+{
+    "name": "loevgaard/dandomain-altapay-entities",
+    "type": "hostnet-entity",
+    "license": "MIT",
+    "require": {
+        "hostnet/entity-plugin-lib": "1.*",
+        "loevgaard/dandomain-foundation-entities" : "@dev",
+        "doctrine/orm": "^2.5",
+        "doctrine/common": "^2.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Loevgaard\\Dandomain\\": "src"
+        }
+    }
+}
